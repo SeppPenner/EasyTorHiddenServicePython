@@ -1,0 +1,74 @@
+EasyTorHiddenServicePython
+====================================
+
+EasyTorHiddenServicePython is a project to run a simple Python webserver to serve files on the darknet.
+
+[![Build status](https://ci.appveyor.com/api/projects/status/of7tpw39qss9qpb8?svg=true)](https://ci.appveyor.com/project/SeppPenner/easytorhiddenservicepython)
+[![GitHub issues](https://img.shields.io/github/issues/SeppPenner/EasyTorHiddenServicePython.svg)](https://github.com/SeppPenner/EasyTorHiddenServicePython/issues)
+[![GitHub forks](https://img.shields.io/github/forks/SeppPenner/EasyTorHiddenServicePython.svg)](https://github.com/SeppPenner/EasyTorHiddenServicePython/network)
+[![GitHub stars](https://img.shields.io/github/stars/SeppPenner/EasyTorHiddenServicePython.svg)](https://github.com/SeppPenner/EasyTorHiddenServicePython/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/SeppPenner/EasyTorHiddenServicePython/master/License.txt)
+
+## Setup:
+1. Clone this project to a directory, e.g. /home/{username}/hidden-service/.
+2. Install Python and Tor using e.g.
+
+```bash
+sudo apt-get install tor python3-pip python-pip
+```
+
+3. Install all required pip package dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Add
+
+```bash
+HiddenServiceDir /home/{username}/hidden-service/
+HiddenServicePort 80 127.0.0.1:8000
+```
+to the `/etc/tor/torrc` file (Change the directory of course) using
+
+```bash
+nano /etc/tor/torrc
+```
+
+5. Set the execute flags:
+
+```bash
+chmod +x install.sh
+chmod +x run.sh
+chmod +x restartTor.sh
+chmod +x startTor.sh
+chmod +x stopTor.sh
+chmod +x statusTor.sh
+```
+
+6. Set the rights to the directory properly:
+
+```bash
+chmod 700 /home/{username}/hidden-service/
+```
+
+7. Add files to the web subfolder of your service to serve them.
+8. Get your tor hostname from your service directory:
+
+```bash
+cat /home/{username}/hidden-service/hostname
+```
+
+9. Access your hidden service over the hostname with the [Tor Browser](https://www.torproject.org/projects/torbrowser.html)
+
+## Further Links:
+* https://github.com/whackashoe/tor-hidden-service-setup/blob/master/setting-up-webserver.md
+* https://github.com/whackashoe/tor-hidden-service-setup
+* https://jordan-wright.com/blog/2014/10/06/creating-tor-hidden-services-with-python/
+* https://robindoherty.com/tor/hidden-service.html
+* https://robindoherty.com/tor/fancy-dot-onion.html
+
+Change history
+--------------
+
+* **Version 1.0.0.0 (2019-01-06)** : 1.0 release.
