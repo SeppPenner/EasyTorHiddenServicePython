@@ -1,7 +1,7 @@
 EasyTorHiddenServicePython
 ====================================
 
-EasyTorHiddenServicePython is a project to run a simple Python webserver to serve files on the darknet.
+EasyTorHiddenServicePython is a project to run a simple Python webserver to serve files on the darknet. The project was written and tested in Python 3.7.2.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/of7tpw39qss9qpb8?svg=true)](https://ci.appveyor.com/project/SeppPenner/easytorhiddenservicepython)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/EasyTorHiddenServicePython.svg)](https://github.com/SeppPenner/EasyTorHiddenServicePython/issues)
@@ -59,7 +59,8 @@ chmod 700 /home/{username}/hidden-service/
 cat /home/{username}/hidden-service/hostname
 ```
 
-9. Access your hidden service over the hostname with the [Tor Browser](https://www.torproject.org/projects/torbrowser.html)
+9. Check that your firewall(s) do not block incoming traffic.
+10. Access your hidden service over the hostname with the [Tor Browser](https://www.torproject.org/projects/torbrowser.html)
 
 ## Further Links:
 * https://github.com/whackashoe/tor-hidden-service-setup/blob/master/setting-up-webserver.md
