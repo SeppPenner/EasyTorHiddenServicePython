@@ -53,14 +53,20 @@ chmod 700 /home/{username}/hidden-service/
 ```
 
 7. Add files to the web subfolder of your service to serve them.
-8. Get your tor hostname from your service directory:
+8. Restart tor using
+
+```bash
+sudo service tor restart
+```
+
+9. Get your tor hostname from your service directory:
 
 ```bash
 cat /home/{username}/hidden-service/hostname
 ```
 
-9. Check that your firewall(s) do not block incoming traffic.
-10. Access your hidden service over the hostname with the [Tor Browser](https://www.torproject.org/projects/torbrowser.html)
+10. Check that your firewall(s) do not block incoming traffic.
+11. Access your hidden service over the hostname with the [Tor Browser](https://www.torproject.org/projects/torbrowser.html)
 
 ## Further Links:
 * https://github.com/whackashoe/tor-hidden-service-setup/blob/master/setting-up-webserver.md
