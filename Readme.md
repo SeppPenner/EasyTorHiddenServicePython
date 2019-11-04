@@ -7,7 +7,7 @@ EasyTorHiddenServicePython is a project to run a simple Python webserver to serv
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/EasyTorHiddenServicePython.svg)](https://github.com/SeppPenner/EasyTorHiddenServicePython/issues)
 [![GitHub forks](https://img.shields.io/github/forks/SeppPenner/EasyTorHiddenServicePython.svg)](https://github.com/SeppPenner/EasyTorHiddenServicePython/network)
 [![GitHub stars](https://img.shields.io/github/stars/SeppPenner/EasyTorHiddenServicePython.svg)](https://github.com/SeppPenner/EasyTorHiddenServicePython/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/SeppPenner/EasyTorHiddenServicePython/master/License.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/SeppPenner/EasyTorHiddenServicePython/master/License.txt)
 [![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/EasyTorHiddenServicePython/badge.svg)](https://snyk.io/test/github/SeppPenner/EasyTorHiddenServicePython) 
 
 ## Setup:
