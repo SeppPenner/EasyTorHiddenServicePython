@@ -1,7 +1,7 @@
 EasyTorHiddenServicePython
 ====================================
 
-EasyTorHiddenServicePython is a project to run a simple Python webserver to serve files on the darknet. The project was written and tested in Python 3.7.4.
+EasyTorHiddenServicePython is a project to run a simple Python webserver to serve files on the darknet. The project was written and tested in Python 3.8.3.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/of7tpw39qss9qpb8?svg=true)](https://ci.appveyor.com/project/SeppPenner/easytorhiddenservicepython)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/EasyTorHiddenServicePython.svg)](https://github.com/SeppPenner/EasyTorHiddenServicePython/issues)
