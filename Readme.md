@@ -80,5 +80,4 @@ cat /home/{username}/hidden-service/hostname
 Change history
 --------------
 
-* **Version 1.0.0.1 (2019-09-29)** : Moved to Python3 "http.server".
-* **Version 1.0.0.0 (2019-01-06)** : 1.0 release.
+See the [Changelog](https://github.com/SeppPenner/EasyTorHiddenServicePython/blob/master/Changelog.md).
